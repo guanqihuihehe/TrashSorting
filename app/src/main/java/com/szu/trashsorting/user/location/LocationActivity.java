@@ -22,7 +22,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.szu.trashsorting.common.BaseActivity;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import static com.szu.trashsorting.common.Constant.currentCity;
 

@@ -17,7 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import java.io.File;
 import java.util.ArrayList;

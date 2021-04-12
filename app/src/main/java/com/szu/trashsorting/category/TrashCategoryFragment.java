@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.szu.trashsorting.category.viewpager.TrashTypePagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 

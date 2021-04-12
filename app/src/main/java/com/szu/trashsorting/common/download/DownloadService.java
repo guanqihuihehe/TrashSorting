@@ -20,7 +20,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import java.util.HashMap;
 import java.util.Map;

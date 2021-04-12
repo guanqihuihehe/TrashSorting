@@ -26,7 +26,7 @@ import androidx.core.content.FileProvider;
 
 import com.szu.trashsorting.common.BaseActivity;
 import com.szu.trashsorting.common.util.RoundBitmapUtil;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,6 +1,6 @@
 package com.szu.trashsorting.category.viewpager;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 public class TrashTypeUtils {
 

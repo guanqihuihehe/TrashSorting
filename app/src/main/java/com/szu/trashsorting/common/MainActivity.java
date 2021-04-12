@@ -16,7 +16,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.szu.trashsorting.common.database.UserDBHelper;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 

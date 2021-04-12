@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.szu.trashsorting.common.BaseActivity;
 import com.szu.trashsorting.common.util.RoundBitmapUtil;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import java.io.File;
 

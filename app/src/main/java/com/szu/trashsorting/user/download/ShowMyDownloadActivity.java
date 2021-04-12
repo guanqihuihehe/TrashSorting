@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.szu.trashsorting.common.BaseActivity;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.google.android.material.tabs.TabLayout;
 
 

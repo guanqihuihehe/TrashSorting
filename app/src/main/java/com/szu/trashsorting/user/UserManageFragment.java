@@ -20,7 +20,7 @@ import androidx.fragment.app.Fragment;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.szu.trashsorting.common.util.RoundBitmapUtil;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.szu.trashsorting.user.download.ShowMyDownloadActivity;
 import com.szu.trashsorting.user.information.UserInformationActivity;
 import com.szu.trashsorting.user.location.LocationActivity;

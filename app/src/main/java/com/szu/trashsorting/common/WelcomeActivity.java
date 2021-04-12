@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.szu.trashsorting.user.login.LoginActivity;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import java.util.Timer;
 import java.util.TimerTask;

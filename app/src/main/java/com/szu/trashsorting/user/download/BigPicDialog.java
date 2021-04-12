@@ -7,7 +7,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 public class BigPicDialog extends Dialog{
     public String picPath;

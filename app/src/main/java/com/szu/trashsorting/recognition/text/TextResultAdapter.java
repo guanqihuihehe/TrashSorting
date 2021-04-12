@@ -6,7 +6,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import java.util.List;
 

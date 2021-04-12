@@ -16,7 +16,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.szu.trashsorting.common.web.WebActivity;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 
 public class EachTrashTypeFragment extends Fragment {

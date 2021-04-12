@@ -22,7 +22,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.szu.trashsorting.common.BaseActivity;
 import com.szu.trashsorting.common.download.DownloadService;
 

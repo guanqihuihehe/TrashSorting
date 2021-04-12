@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.szu.trashsorting.common.BaseActivity;
 import com.szu.trashsorting.common.database.SearchRecordDBHelper;
 import com.szu.trashsorting.common.database.UserDBHelper;

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.szu.trashsorting.category.viewpager.TrashTypeEntity;
 import com.szu.trashsorting.category.viewpager.TrashTypeUtils;
 

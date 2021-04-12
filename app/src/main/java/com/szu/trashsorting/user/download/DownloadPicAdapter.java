@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import java.io.File;
 import java.util.ArrayList;

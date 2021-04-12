@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 public class TrashTypePagerAdapter extends FragmentPagerAdapter {
 

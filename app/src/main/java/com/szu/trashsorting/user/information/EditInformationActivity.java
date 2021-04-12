@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.szu.trashsorting.common.BaseActivity;
 import com.szu.trashsorting.common.database.UserDBHelper;
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 
 import static com.szu.trashsorting.common.Constant.currentUserCollege;
 import static com.szu.trashsorting.common.Constant.currentUserGrade;

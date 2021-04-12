@@ -28,7 +28,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.trashsorting.R;
+import com.szu.trashsorting.R;
 import com.szu.trashsorting.common.database.SearchRecordDBHelper;
 import com.szu.trashsorting.recognition.picture.PicRecognitionUtils;
 import com.szu.trashsorting.recognition.text.TextRecognitionUtils;

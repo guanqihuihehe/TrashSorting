@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <!-- 使用View为每个新闻栏目添加边框 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:id="@+id/file_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/file"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/file_icon"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/file_icon"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:text="我的新闻.apk"
+            />
+
+        <TextView
+            android:id="@+id/filesize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_above="@+id/downloadtime"
+            android:layout_alignBottom="@+id/file_icon"
+            android:layout_toRightOf="@+id/file_icon"
+            android:text="大小：2kb"
+            />
+
+        <TextView
+            android:id="@+id/downloadtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@+id/file_icon"
+            android:layout_toRightOf="@+id/filesize"
+            android:text="下载时间：2021-1-6"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

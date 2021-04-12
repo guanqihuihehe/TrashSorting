@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TrashSorting</string>
+    <string name="title_intranet">Intranet</string>
+    <string name="title_mine">Mine</string>
+    <string name="title_detail">Detail</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">分类百科</string>
+    <string name="title_notifications">设置</string>
+    <string name="title_activity_classification">分类百科</string>
+    <string name="tab_text_1">可回收物</string>
+    <string name="tab_text_2">湿垃圾</string>
+    <string name="tab_text_3">干垃圾</string>
+    <string name="tab_text_4">有害垃圾</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/trash_image"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:src="@mipmap/recyclables" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_marginBottom="80dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tips_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="30dp"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:text="干垃圾" />
+            <TextView
+                android:id="@+id/tips_explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#333"
+                android:textSize="40px"
+                android:text="可回收垃圾是指适宜回收、可循环利用的生活废弃物。" />
+            <TextView
+                android:id="@+id/tips_include"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="30dp"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:text="常见物品" />
+            <TextView
+                android:id="@+id/tips_contain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textColor="#333"
+                android:textSize="40px"
+                android:layout_marginTop="10dp"
+                android:text="常见包括各类废金属、玻璃瓶、易拉罐、饮料瓶、塑料玩具、书本、报纸、广告单、纸板箱、衣服、床上用品、电子产品等" />
+            <TextView
+                android:id="@+id/tips_tipTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="30dp"
+                android:textSize="60px"
+                android:textColor="#333"
+                android:textStyle="bold"
+                android:text="处理方式" />
+            <TextView
+                android:id="@+id/tips_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textColor="#333"
+                android:textSize="40px"
+                android:layout_marginTop="10dp"
+                android:text="轻投轻放；清洁干燥，避免污染，费纸尽量平整；立体包装物请清空内容物，清洁后压扁投放；有尖锐边角的、应包裹后投放" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

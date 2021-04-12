@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.szu.trashsorting.common.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/mygradient"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/big_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内部网"
+        android:textStyle="bold"
+        android:textColor="@color/bg1"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corner"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tabs"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</LinearLayout>
+

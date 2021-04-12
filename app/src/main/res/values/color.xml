@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8DE26A</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlue">#706fd3</color>
+    <color name="colorPurple">#34ace0</color>
+    <color name="shineBlue">#badffa</color>
+    <color name="white1">#A5EAF8</color>
+    <color name="blue1">#D5B4F5</color>
+    <color name="blue2">#00D060</color>
+    <color name="white2">#8DE26A</color>
+    <color name="bg1">#fffefe</color>
+    <color name="bg2">#999</color>
+    <color name="press_bg">#eeeeee</color>
+</resources>

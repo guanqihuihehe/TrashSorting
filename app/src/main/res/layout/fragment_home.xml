@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/face_pic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/home">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <EditText
+            android:id="@+id/search_badge"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:hint="点击搜索"/>
+
+        <ImageView
+            android:id="@+id/search_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@mipmap/search"/>
+        <ImageView
+            android:id="@+id/scan_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@mipmap/scan"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:id="@+id/trash_ImageView"
+            android:layout_width="wrap_content"
+            android:maxWidth="200dp"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tip"
+            android:visibility="gone"
+            android:text="暂无查找结果"/>
+        <TextView
+            android:id="@+id/record_title"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:text="搜索记录"
+            android:textColor="#333"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/record1"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/record2"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/record3"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/record4"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <ListView
+            android:id="@+id/result_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
